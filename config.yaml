@@ -1,0 +1,9 @@
+# Shared folder mounts from host location to guest location
+# Only mounts if they exist
+shared_folder_mounts:
+- from_host: ~/Dev
+  to_guest:  /home/vagrant/Dev
+- from_host: ~/Projects
+  to_guest:  /home/vagrant/projects
+- from_host: ~/git
+  to_guest:  /home/vagrant/git
