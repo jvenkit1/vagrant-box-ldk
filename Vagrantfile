@@ -2,7 +2,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 # Box / OS
-VAGRANT_BOX = 'ubuntu/trusty64'  # Using minimal distribution of ubuntu 16.04
+VAGRANT_BOX = 'ubuntu/trusty64'
 
 # Reading configuration file
 custom = nil
@@ -24,11 +24,7 @@ VM_NAME = 'ldk'
 VM_USER = 'vagrant'
 # Username on your Device
 MAC_USER = 'jvenkit1'
-# # Host folder to sync
-# HOST_PATH = '/Users/' + MAC_USER + '/' + VM_NAME
-# # Where to sync to on Guest — 'vagrant' is the default user name
-# GUEST_PATH = '/home/' + VM_USER + '/' + VM_NAME
-# # VM Port — uncomment this to use NAT instead of DHCP
+# VM Port — uncomment this to use NAT instead of DHCP
 # VM_PORT = 8080
 Vagrant.configure(2) do |config|
   # Vagrant box from Hashicorp

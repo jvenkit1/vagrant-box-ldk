@@ -1,5 +1,8 @@
 # vagrant-box-ldk
-Linux development kit via Vagrant
+Vagrant is an open source software for building, maintaining and shipping development environments.<br/>
+The idea here is that the required development environment can be made available as a VM, complete with all the necessary utilities compiled, with a keen focus on portability and usability.<br/>
+
+This project aims to provide a linux based development environment.
 
 # Usage
 The repository provides a Vagrantfile which configures the linux environment.<br/>
@@ -43,6 +46,9 @@ vagrant snapshot list
 # Note:
 1. Currently tested on OSX
 2. Supports only private networking.
+
+# TODO:
+1. Test support with Windows OS.
 
 # Download Links:
 Virtualbox: https://www.virtualbox.org/wiki/Downloads <br/>
