@@ -36,7 +36,7 @@ It is often useful to save a snapshot of the vagrant machine.
 vagrant halt
 vagrant snapshot save pristine-install
 
-# Restring snapshots
+# Restoring snapshots
 vagrant snapshot restore pristine-install
 
 # Listing snapshots
